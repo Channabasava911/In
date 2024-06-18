@@ -223,11 +223,12 @@
 
 
 
-ls=[1,1,2,2,3,3,3]
+# ls=[1,1,2,2,3,3]
 # result=[0]*(len(ls) + 1)
 # for i in ls:
 #     result[i]+=1
 # max_vote = max(result)
+# print(max_vote)
 
 # a=[]
 # count = 0
@@ -240,6 +241,7 @@ ls=[1,1,2,2,3,3,3]
 # print((index if count == 1 else -1))
     
     
+# 2nd approach
 # d  = {}
 # for i in ls:
 #     if i in d:
